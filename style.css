@@ -113,4 +113,7 @@ background: #212D40
   .container {
     width: 300px;
   }
+  .card {
+    width: 200px;
+  }
 }
