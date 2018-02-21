@@ -3,40 +3,66 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto:400,700,900" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <title>Xavier's landing page</title>
     <meta name="description" content="Who I am, what I do, where I am headed...hear it all!">
   </head>
-  <body class="bg-color-1">
-    <div class="container">
+  <body>
+    <div class="container img-rounding">
       <div class="card bg-color-3">
-        <div class="subcard img-rounding">
-          <img src="images/ProfilePicXG.jpg" alt="profile_pic" height="200" width="200">
+        <div class="subcard">
+          <img src="images/ProfilePicXG.jpg" alt="profile_pic" height="150" width="150">
           <h1> Xavier Gastaud </h1>
-          <h2> Student @Le Wagon</h2>
-          <p> Getting geared up to jump onto the digital bandwagon! </p>
+          <h3> Student at Le Wagon</h2>
+          <p class="text-small"> Getting geared up to jump onto the digital bandwagon! </p>
         </div>
       </div>
       <div class="card bg-color-5">
-        <h2> Pitch idea #1 </h2>
-        <p class="bold"> @Refill: Order your craft beer in 2 clicks! </p>
+        <h3> Pitch idea #1 </h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="images/craft_beer.jpg" alt="profile_pic" width="250">
+              </td>
+              <td>
+                <p class="text-large">@Refill: <em>Check availability and order beer for your bar in 2 clicks!  </em></p>
+              </td>
+          </tbody>
+        </table>
       </div>
       <div class="card bg-color-5">
-        <h2> Pitch idea #2 </h2>
-        <p class="bold"> @Endurace: Your hub to endurance sports events </p>
+        <h3> Pitch idea #2 </h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="images/running.jpg" alt="profile_pic" width="250">
+              </td>
+              <td>
+                <p class="text-large"> @Endurace: <em>Plan and enroll in your next endurance event! </em></p>
+              </td>
+          </tbody>
+        </table>
       </div>
       <div class="card bg-color-4">
-        <h2> Contact me </h2>
+        <h3> Contact me </h3>
         <ul class="list-inline">
-          <li><a href="https://github.com/xgastaud"><i class="fab fa-github-square"></i> Github</a></li>
-          <li><a href="https://www.facebook.com/xavier.gastaud"><i class="fab fa-facebook-square"></i> Facebook</a></li>
-          <li><a href="https://www.linkedin.com/in/xaviergastaud/"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+          <li>
+            <a href="https://github.com/xgastaud"><i class="fab fa-github-square"></i> Github</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/xavier.gastaud"><i class="fab fa-facebook-square"></i> Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/xaviergastaud/"><i class="fab fa-linkedin"></i> Linkedin</a>
+          </li>
         </ul>
       </div>
       <div class="card bg-color-2">
-        <h2> About this page </h2>
-        <p> This page was coded during the FullStack program @LeWagon </p>
+        <h3> About this page </h3>
+        <p class="text-small"> This page was coded during the FullStack program at Le Wagon :-D </p>
       </div>
     </div>
   </body>
