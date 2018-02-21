@@ -112,18 +112,9 @@ background: #212D40
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 350px;
+    width: 450px;
   }
   .card {
-    width: 300px;
-  }
-}
-@media (max-width: 440px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
-  .card {
-    width: 250px;
+    width: 400px;
   }
 }
