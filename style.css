@@ -7,14 +7,14 @@ body{
   line-height: 1em;
 }
 
-h1 {
+h1, h2, h3, p {
   color: rgba(255,255,255,0.7);
   font-family: 'Roboto', sans-serif;
 }
 
-h2, h3, p {
-  color: rgba(255,255,255,0.7);
-  font-family: 'Roboto', sans-serif;
+p {
+  margin: 5px;
+
 }
 
 a {
@@ -51,7 +51,7 @@ a:hover  {
   box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 7px auto;
-  margin-left: auto;
+  margin-left: 5px;
   margin-right: auto;
 }
 
@@ -96,16 +96,16 @@ background: #212D40
     width: 700px;
   }
   .card {
-    width: 600px;
+    width: 500px;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+    width: 350px;
   }
   .card {
-    width: 400px;
+    width: 300px;
   }
 }
 @media (max-width: 440px) {
@@ -114,6 +114,6 @@ background: #212D40
     width: 300px;
   }
   .card {
-    width: 200px;
+    width: 250px;
   }
 }
