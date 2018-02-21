@@ -90,13 +90,13 @@ background: #212D40
 }
 
 /*media class*/
-@media (max-width: 960px) {
+@media (max-width: 3000px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
   .card {
-    width: 400px;
+    width: 600px;
   }
 }
 @media (max-width: 720px) {
@@ -105,7 +105,7 @@ background: #212D40
     width: 500px;
   }
   .card {
-    width: 300px;
+    width: 400px;
   }
 }
 @media (max-width: 440px) {
