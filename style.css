@@ -5,7 +5,7 @@ body{
   line-height: 1em;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   color: rgba(255,255,255,0.7);
   font-family: 'Roboto', sans-serif;
 }
@@ -53,6 +53,11 @@ a:hover  {
   margin-right: auto;
 }
 
+.card a {
+  font-size: 18px;
+  font-weight: 700;
+  }
+
 .subcard {
   width: 90%;
   margin: 10px 0px;
@@ -84,7 +89,7 @@ background: #212D40
 }
 
 .bg-color-5{
- background: #F4D35E;
+ background: #FDA831;
 }
 
 .text-large{
